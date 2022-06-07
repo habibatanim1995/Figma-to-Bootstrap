@@ -1,3 +1,9 @@
-.bc-color {
-    background-color: 562EFF;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+
+.name{
+    font-size: 18px;
+}
+
+.blue{
+    color: #562EFF;
 }
