@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/001f10cf90.js" crossorigin="anonymous"></script>
     <title>Figma to Bootstrap</title>
 </head>
 <body>
+    <!-- navigation bar -->
     <header class="navigation sticky-top py-2 bg-primary fluid w-94 shadow">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
@@ -25,42 +27,138 @@
             </div>
         </nav>
     </header>
-    <main class="ms-5 ps-3">
-        <section class="container-fluid">
-            <h1 class="blue">Top Players</h1>
-            <div class="row">
+    <main class="container">
+        <!-- 1st section half -->
+        <section class="ps-5 bg-light shadow ">
+            <h1 class="blue pb-5 pt-5 text-primary">Top Players</h1>
+            <div class="row justify-content-center">
                 <div class="d-flex text-center col">
                     <img src="/images/players/player-1.png" height="150" width="150" alt="">
-                    <h3 class="px-4 pt-5 fw-normal name">Rahim</h3>
+                    <h3 class="px-4 pt-5 fw-normal name">John Smith</h3>
                 </div>
                 <div class="d-flex text-center col">
-                    <img src="/images/players/player-1.png" height="150" width="150" alt="">
-                    <h3 class="fw-normal ps-4 pt-5 name">Rahim</h3>
+                    <img src="/images/players/player-2.png" height="150" width="150" alt="">
+                    <h3 class="fw-normal ps-4 pt-5 name">Pro Rasel</h3>
                 </div>
                 <div class="d-flex text-center col">
-                    <img src="/images/players/player-1.png" height="150" width="150" alt="">
-                    <h3 class="fw-normal ps-4 pt-5 name">Rahim</h3>
+                    <img src="/images/players/player-3.png" height="150" width="150" alt="">
+                    <h3 class="fw-normal ps-4 pt-5 name">Abu Sufian</h3>
                 </div>
                 <div class="row gy-5">
                     <div class="d-flex text-center col">
-                        <img src="/images/players/player-1.png" height="150" width="150" alt="">
-                        <h3 class="fw-normal ps-4 pt-5 name">Rahim</h3>
+                        <img src="/images/players/player-4.png" height="150" width="150" alt="">
+                        <h3 class="fw-normal ps-4 pt-5 name">Shajrdul Karim</h3>
                     </div>
                     <div class="d-flex text-center col">
-                        <img src="/images/players/player-1.png" height="150" width="150" alt="">
-                        <h3 class="fw-normal ps-4 pt-5 name">Rahim</h3>
+                        <img src="/images/players/player-5.png" height="150" width="150" alt="">
+                        <h3 class="fw-normal ps-4 pt-5 name"> Maruf Ahmed</h3>
                     </div>
                     <div class="d-flex text-center col">
-                        <img src="/images/players/player-1.png" height="150" width="150" alt="">
-                        <h3 class="fw-normal ps-4 pt-5 name">Rahim</h3>
+                        <img src="/images/players/player-6.png" height="150" width="150" alt="">
+                        <h3 class="fw-normal ps-4 pt-5 name">Mujahid</h3>
                     </div>
                 </div>
             </div>
+               <hr class="my-5">
+
+               <!-- 1st section other half -->
+               <div class="pb-5">
+                   <h1 class="pb-5 text-primary">Top Blog</h1>
+                    <div class="row gy-5">
+                        <div class="d-flex col">
+                            <img src="./images/blogs/blog-1.png" height="150" width="200" alt="">
+                            <h3 class="ps-4 pt-5 name">13 of My Favorite <br> UI/UX Goodies <p class="text-muted fs-5">By <span class="text-primary">Danny Sapio</span></p></h3>
+                        </div>
+                        <div class="d-flex col">
+                            <img src="./images/blogs/blog-2.png" height="150" width="200" alt="">
+                            <h3 class="ps-4 pt-5 name">UI Cheat Sheet:<br> list vs grids <p class="text-muted fs-5">By <span class="text-primary">Tess Gadd</span></p></h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="d-flex col">
+                                <img src="./images/blogs/blog-3.png" height="150" width="200" alt="">
+                                <h3 class="ps-4 pt-5 name">7 typography tips<br> for interface design<p class="text-muted fs-5">By <span class="text-primary">Jeremiag Lam</span></p></h3>
+                        </div>
+                        <div class="d-flex col">
+                                <img src="./images/blogs/blog-4.png" height="150" width="200" alt="">
+                                <h3 class="ps-4 pt-5 name">Your Logo is<br>copied<p class="text-muted fs-5">By <span class="text-primary">Farninand Vogler</span></p></h3>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <br>
+
+        <!-- 2nd section -->
+        <section class="ps-5 align-items-center justify-content-center shadow pt-5 bg-light">
+                <h1 class="text-primary pb-5">Latest Courses</h1>
+                <div class="row">
+                    <div class="col">
+                        <div> 
+                            <img src="./images/courses/course-1.png" height="150" width="300" alt="">
+                            <h3 class="pt-3">React- The complete<br>Guide 2022<p class="pt-2 text-danger fs-5">Reed Krakoff</p></h3>
+                        </div>
+                        <div class="d-flex">
+                            <div class="text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <p class="ps-4 text-muted">4.5</p>
+                            <div class="shadow px-3 pt-1 ms-4 mb-2 rounded-pill bg-warning text-danger">  
+                                <i class="fa-regular fa-clock"></i>
+                                <span> 01:74 hr</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div> 
+                            <img src="./images/courses/course-1.png" height="150" width="300" alt="">
+                            <h3 class="pt-3">React- The complete<br>Guide 2022<p class="pt-2 text-danger fs-5">Reed Krakoff</p></h3>
+                        </div>
+                        <div class="d-flex">
+                            <div class="text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <p class="ps-4 text-muted">4.5</p>
+                            <div class="shadow px-3 pt-1 ms-4 mb-2 rounded-pill bg-warning text-danger">  
+                                <i class="fa-regular fa-clock"></i>
+                                <span> 01:74 hr</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div> 
+                            <img src="./images/courses/course-1.png" height="150" width="300" alt="">
+                            <h3 class="pt-3">React- The complete<br>Guide 2022<p class="pt-2 text-danger fs-5">Reed Krakoff</p></h3>
+                        </div>
+                        <div class="d-flex">
+                            <div class="text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <p class="ps-4 text-muted">4.5</p>
+                            <div class="shadow px-3 pt-1 ms-4 mb-2 rounded-pill bg-warning text-danger">  
+                                <i class="fa-regular fa-clock"></i>
+                                <span> 01:74 hr</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </section>
     </main>
-    <footer>
+    <footer class="text-center pt-5 pb-3 fst-italic">
+        <small>&copy; Leaderbord.</small>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 </html>
